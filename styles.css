@@ -1,11 +1,17 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
+    background-image: url(Images/background.png);
+    background-repeat: no-repeat;
+    background-size: 50%; /* Ajusta o tamanho da imagem para 50% da largura da tela */
+    background-position: center; /* Centraliza a imagem no meio da tela */
+    background-attachment: fixed; /* Faz a imagem rolar com a página */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-size: auto;
 }
 
 .container {
@@ -25,7 +31,7 @@ h1 {
 }
 
 .element {
-    background-color: #ffcccb;
+    background-color: #c3f5b4;
     border: 2px solid #333;
     border-radius: 10px;
     padding: 10px;
@@ -59,7 +65,7 @@ h1 {
 }
 
 button {
-    background-color: #ff6f61;
+    background-color: #86f77c;
     border: none;
     border-radius: 5px;
     color: white;
@@ -85,10 +91,10 @@ button:hover {
 
 button {
     padding: 10px 20px;
-    margin: 10px;
+    margin: 22px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #7fda76;
     color: white;
     border: none;
     border-radius: 5px;
@@ -100,7 +106,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #44942b;
 }
 
 /* Container da Tabela Completa */
